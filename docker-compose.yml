@@ -28,7 +28,6 @@ services:
    # Docker HubからMySQL5.7の公式イメージをダウンロードしてくる指定
    image: mysql:5.7
    container_name: laravel_db
-
    # コンテナ内の環境変数を指定。環境変数を渡すとビルド時に設定してくれるDockerイメージがあるので、利用の際はDocker Hubのサイトで確認する
    environment:
      MYSQL_ROOT_PASSWORD: root
